@@ -1,0 +1,5 @@
+@font-face {
+    font-family:'Zawgyi-One';
+    src:local('Zawgyi-One'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/zawgyi.woff') format('woff'), url('https://mmwebfonts-fonts.sgp1.cdn.digitaloceanspaces.com/fonts/zawgyi.ttf') format('ttf');
+}
+

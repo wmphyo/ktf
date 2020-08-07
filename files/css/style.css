@@ -1,0 +1,154 @@
+html, body {
+	user-select: none;
+    height:100%;
+	width:100%;
+	overflow: auto;
+	cursor:defualt;
+	user-select: none;
+	touch-action: none;
+	background:#FFFFFF;
+	-ms-user-select:none;
+	-moz-user-select:none;
+	-khtml-user-select:none;
+	-webkit-user-select:none;
+	-webkit-touch-callout:none;
+    -ms-overflow-scrolling:auto;
+    -moz-overflow-scrolling:auto;
+    -khtml-overflow-scrolling:auto;
+	-webkit-overflow-scrolling: auto;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	overflow-scrolling:touch;
+	-ms-overflow-scrolling:touch;
+	-moz-overflow-scrolling:touch;
+	-khtml-overflow-scrolling:touch;
+	-webkit-overflow-scrolling: touch;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	  margin:0;
+}
+
+.headr {
+    padding:15px 0;
+    text-align: center;
+    font-size:20px;
+    letter-spacing: 1.1px;
+    color:white;
+}
+
+.headRow {
+    background:#1e3799;
+}
+
+/* First row*/
+.f_row, .s_row {
+    margin-top:15px;
+}
+
+.head1{
+    font-size:22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding:30px 0;
+}
+
+.para {
+    letter-spacing: 1.1px;
+    margin-top:15px;
+    font-size:16px;
+    line-height: 30px;
+    text-align: justify;
+    text-justify:inter-word;
+}
+
+.usertype {
+    padding:10px 15px;
+}
+
+.usertypetitle {
+    text-align: center;
+    font-size:18px;
+    padding:10px 0;
+    letter-spacing: 1.1px;
+}
+
+.userpara {
+    padding:10px;
+    line-height: 30px;
+}
+
+.donor {
+/*    background-color: #f6b93b;*/
+    background-color: #fad390;
+}
+
+.donee {
+/*    background-color: #78e08f;*/
+    background-color: #b8e994;
+}
+
+.buss {
+/*    background-color: #e55039;*/
+    background-color: #f8c291;
+}
+
+.btnbox {
+    padding:10px 15px;
+}
+
+.btnH {
+    width:100%;
+    padding:10px 15px;
+    text-align: center;   
+    background-color: #1e3799;
+    color:white;
+}
+
+.btnH.hover:hover{
+    box-shadow:1px 1px 5px grey;
+    cursor:pointer;
+    color:black;
+}
+
+.btndonor.hover:hover {
+    background-color: #fad390;
+}
+
+.btndonee.hover:hover{
+    background-color: #b8e994;
+}
+
+.btnbuss.hover:hover{
+    background-color: #f8c291;
+}
+
+.blu {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+}
+
+/*For registration page*/
+.logo {
+    height:50px;
+    width:250px;
+    background-image: url(/files/images/logo.png);
+    background-repeat: no-repeat;
+    margin:30px 0 30px 50px;
+}
+
+.btnR {
+    width:200px;
+    text-align: center;
+    border:1pt solid #1e3799;
+    padding:10px 0;
+    color:#1e3799;
+    letter-spacing: 1.1px;  
+    font-size:18px;
+    margin:30px 0 0 50px;
+}
+
+.btnback.hover:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 5px grey;
+}
