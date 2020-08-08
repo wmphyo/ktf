@@ -120,14 +120,6 @@ html, body {
     background-color: #f8c291;
 }
 
-.blu {
-    background-color: blue;
-}
-
-.pink {
-    background-color: pink;
-}
-
 /*For registration page*/
 .logo {
     height:50px;
@@ -151,4 +143,105 @@ html, body {
 .btnback.hover:hover{
     cursor: pointer;
     box-shadow: 1px 1px 5px grey;
+}
+
+.registerpnl, .loginpnl {
+    margin-top:50px;
+    width:100%;
+    box-shadow: 1px 1px 5px grey, inset -1px -1px 5px grey;
+    padding:20px;
+}
+
+.headlbl {
+    padding:10px 0;
+    font-size: 18px;
+}
+
+.socialAPI {
+    text-align: center;
+    margin:15px 0   ;
+    padding:10px;
+    color:white;
+}
+
+.fb {
+    background-color: #1e3799;
+}
+
+.gg {
+    background-color: #60a3bc;
+}
+
+.socialAPI.hover:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.registerpnl label, .loginpnl label {
+    padding:10px 0 0 0;
+    width:100%;
+    font-weight: 700;
+    font-size:14px;
+}
+
+.tnc {
+    font-size:12px;
+    padding:10px 0;
+}
+
+input[type='text'] , input[type='password'], input[type=email], input[type="number"] {
+	padding:4px 0;
+	width:100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.instruc {
+    font-size:14px;
+}
+
+.infolbl {
+    text-align: center;
+    margin-top:40px;
+    width:100%;
+    color:white;
+    background-color: #1e3799;
+    padding:10px 0;
+}
+
+.infolbl.hover:hover {
+    box-shadow: 1px 1px 5px grey;
+    cursor:pointer;
+}
+
+.btnregister, .btnlogin {
+    width:100%;
+    color:white;
+    background-color: #1e3799;
+    text-align: center;
+    padding:10px 0;
+}
+
+.btnregister.hover:hover, .btnlogin.hover:hover{
+    cursor:pointer;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.forgetpsw {
+    padding:15px 0;
+    font-size:14px;
+}
+
+.hide {
+    display:none;
 }
