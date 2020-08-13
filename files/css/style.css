@@ -86,17 +86,14 @@ html, body {
 }
 
 .donor {
-/*    background-color: #f6b93b;*/
     background-color: #fad390;
 }
 
 .donee {
-/*    background-color: #78e08f;*/
     background-color: #b8e994;
 }
 
 .buss {
-/*    background-color: #e55039;*/
     background-color: #f8c291;
 }
 
@@ -364,9 +361,11 @@ input[type=number] {
 }
 
 .footr{
+    margin-top:20px;
     height:auto;
     background:#1e3799;
     color:white;
+    position: relative;
 }
 
 .ftr {
@@ -389,12 +388,12 @@ input[type=number] {
     color:#c8d6e5;
 }
 
-.tnc {
+.footr .tnc {
     padding:100px 0 0 50px;
     font-size:16px;
 }
 
-.tnc a {
+.footr a {
     text-decoration: none;
     color:#c8d6e5;
     padding:0 20px 0 20px;
@@ -403,4 +402,112 @@ input[type=number] {
 .footr a:hover{
     cursor:pointer;
     text-decoration: underline;
+}
+
+
+/*Doneelist page*/
+.doneelist {
+    padding:20px 0 15px 45px;
+}
+
+.listpanel {
+    border-width:0 1px 1px 1px;
+    border-style:solid;
+}
+
+.listitems {
+    padding:15px 55px;
+}
+
+.toprow {
+    border-width:1px 1px 1px 1px;
+    border-style:solid;
+}
+
+.doneename, .doneetype, .doneeaddress, .doneemobilenum, .doneefullinfo {
+    padding:10px;
+}
+
+
+/* For donee profile page*/
+.orgname {
+    padding:15px 0 15px 45px;
+    font-size:20px;
+}
+
+.orgcontent {
+    padding:0 45px 0 45px;
+}
+
+.orgimg {
+    max-width:100%;
+    height:auto;
+    display: block;
+}
+
+.orginfo {
+    padding:5px;
+}
+
+.shortbio, .doneelocation {
+    margin-top:5px;
+    font-size:14px;
+    padding:0 0 5px 0;
+}
+
+.doneedescription {
+    padding:10px 0 0 0;
+    text-align: justify;
+    text-justify:inter-word;
+}
+
+.orgsocialFB, .orgsocialIN, .orgsocialIG, .orgsocialTT {
+    float:left;
+    padding:20px;
+    background-color: antiquewhite;
+    margin:10px 10px 0 0;
+}
+
+.doneetabs {
+    margin:25px 0;
+    padding:0 45px 0 45px;
+}
+
+.doneetab {
+    text-align: center;
+    margin-top:5px;
+    font-size:14px;
+    padding:10px 0;
+    color:white;
+    background-color: #0984e3;
+}
+
+.doneetab.hover:hover{
+    box-shadow: 1px 1px 5px grey;
+    cursor: pointer;2
+}
+
+.profiledisplay {
+    padding:0 45px 0 45px;
+}
+
+.doneeproject {
+    border-width:0 1px 1px 1px;
+    border-style: solid;
+}
+
+.doneeproject.hover:hover {
+    cursor:pointer;
+    background-color:#ecf0f1;
+}
+
+.projname, .projtype, .projstart, .projend, .projloc, .projdesc {
+    text-align:justify;
+    text-justify: inter-word;
+    padding:10px 0;
+    font-size: 14px;
+}
+
+.projcol {
+    margin-bottom:20px;
 }
