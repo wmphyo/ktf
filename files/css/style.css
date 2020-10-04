@@ -511,3 +511,25 @@ input[type=number] {
 .projcol {
     margin-bottom:20px;
 }
+
+/*Donation page*/
+.donationinfo {
+    padding:20px 45px 10px 45px;
+}
+
+.donationname {
+    padding:5px;
+    font-size:16px;
+}
+
+.donationlocation,  .donationSD, .donationED, .projecttype {
+    padding:5px;
+    font-size:12px;
+}
+
+.donationdescription {
+    padding:5px;
+    font-size:14px;
+    text-align: justify;
+    text-justify: inter-word;
+}

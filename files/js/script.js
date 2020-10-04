@@ -32,9 +32,11 @@ var doneeprojects = [
 ];
 
 //css class names for doneeprofile page
+//these classes are used as ID for donation page
 var doneeprojectclasses = [
     'projname', 'projtype', 'projstart', 'projend', 'projloc', 'projdesc'
 ];
+
 
 //address, description
 var doneeprofile = [
@@ -42,7 +44,9 @@ var doneeprofile = [
 ];
 
 //to capture the 
-var clickedDoneeProj;
+var doneeProj = {
+    clickedID: ''
+}
 
 $(function (){    
     $('#newacc').hover(function(e){
@@ -63,13 +67,18 @@ $(function (){
         var x = /([0-9]+)/;
         clickedID = clickedID.split(x);
         clickedID = clickedID.filter(Boolean);
+        
         //capture the num value, 
         //which will serve as index for array on donation page.
-        clickedDoneeProj = parseInt(clickedID[clickedID.length - 1]);
-        //console.log(clickedDoneeProj);
+        clickedID = parseInt(clickedID[clickedID.length - 1]);
+        
+        doneeProj.clickedID = clickedID;
+        console.log(doneeProj.clickedID);
+        
+        var url = "donation.html";
+        window.open(url, '_self');
     });
 });
-
 
 function doneelistpageload(){
     var listpanel;
@@ -163,9 +172,15 @@ function doneeprofilepageload() {
 
 
 function donationpageload() {
-    
+    alert(doneeProj.clickedID);
+    //loop to insert values from Array
+    for(var i = 0; i < doneeprojects.length; i++){
+        //pass array value to variable
+        var words = document.createTextNode(doneeProj.clickedID);
+        var htmlElement = document.getElementById(doneelistclasses[i]);
+        htmlElement.appendChild(words);
+    }
 }
-
 
 
 
